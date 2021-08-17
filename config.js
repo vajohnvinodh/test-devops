@@ -1,10 +1,10 @@
 var config = {
 	database: {
-		host:	  '<yourrdsfqdn>', 	// database host
-		user: 	  'admin', 		// your database username
-		password: 'admin', 		// your database password
+		host:	  'mysqldatabase.cb1ujprwezfc.us-east-1.rds.amazonaws.com', 	// database host
+		user: 	  'foo', 		// your database username
+		password: 'foobarbaz', 		// your database password
 		port: 	  3306, 		// default MySQL port
-		db: 	  'test' 		// your database name
+		db: 	  'mydb' 		// your database name
 	},
 	server: {
 		host: '0.0.0.0',
