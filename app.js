@@ -110,5 +110,5 @@ app.use('/', index)
 app.use('/users', users)
 
 app.listen(3000, function(){
-	console.log('Server running at port 3000: http://127.0.0.1:3000')
+	console.log('Server running at port 3000: http://0.0.0.0:3000')
 })
